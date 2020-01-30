@@ -23,5 +23,5 @@
   - name: Start Nginx
   
   - name: firewalld reload
-  command: firewall-cmd --reload
+    command: firewall-cmd --reload
   
