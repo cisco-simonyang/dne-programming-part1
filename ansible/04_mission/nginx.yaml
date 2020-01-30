@@ -15,8 +15,13 @@
     
   # sudo firewall-cmd --zone=public --permanent --add-service=http  
   - name: enable firewall
+    notify:
+    - firewalld reload
 
   # service nginx start
   handlers:
   - name: Start Nginx
+  
+  - name: firewalld reload
+  command: firewall-cmd --reload
   
