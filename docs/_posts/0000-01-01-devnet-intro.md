@@ -1,7 +1,13 @@
 ---
 layout: slide
-title: "Welcome to <br/> Cisco DevNet Express!"
+title: "Title"
 ---
 
+change the filename to the following format.
 
-Please read `README.md` in the repository, and follow the instructions.
+0000-<group number: 00, 01>-<member number>-your name.
+
+Example: `0000-01-01-simyung.md`
+
+Delete above lines and ***Write anything you want here***!
+
