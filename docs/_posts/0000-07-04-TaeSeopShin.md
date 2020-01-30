@@ -1,6 +1,6 @@
 ---
 layout: slide
-title: "Title"
+title: "7"
 ---
 
 change the filename to the following format.
