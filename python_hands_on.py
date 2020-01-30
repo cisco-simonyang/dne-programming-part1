@@ -27,7 +27,7 @@ picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
 
 # TODO 5
 # use `input` function to get 2 number and print the multiply of numbers.
-num1 = 
-num2 = 
+num1 = input("num1=")
+num2 = input("num2=")
 
-print("multiply answer =", )
+print("multiply answer =", int(num1)/int(num2) )
