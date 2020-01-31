@@ -7,5 +7,5 @@
   - name:
     hostname:
       name: "{{item.name}}"
-    when: "{{ansible_hostname == item.host}}"
+    when: ansible_hostname == item.host
     with_items: "{{hostinfo}}"
